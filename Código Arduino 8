@@ -1,0 +1,15 @@
+int sensorData[10];  
+
+void setup() {
+  Serial.begin(9600);
+
+  
+  int tamanhoVetor = sizeof(sensorData) / sizeof(sensorData[0]);
+  
+  
+  Serial.println(tamanhoVetor);  // Resultado esperado: 10
+}
+
+void loop() {
+  
+}
